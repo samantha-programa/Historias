@@ -1,0 +1,177 @@
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4; 
+  color: #333;
+  line-height: 1.6;
+}
+
+header {
+  text-align: center;
+  background: #003366; 
+  color: #fff;
+  padding: 3rem 1rem 2rem; 
+  border-bottom: 8px solid #daa520; 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+
+header h2 {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #d9ecff;
+  font-style: italic;
+}
+
+main {
+  padding: 1rem;
+}
+
+.bloque {
+  background: #fff;
+  margin: 2rem auto;
+  border-radius: 8px; 
+  max-width: 750px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  overflow: hidden;
+  border-left: 5px solid #0055aa; 
+}
+
+.bloque h3 {
+  margin: 0;
+  padding: 1rem 1.2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #003366;
+  border-bottom: 1px solid #eee;
+  background: #e9eff5;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bloque p {
+  padding: 1rem 1.2rem;
+  margin: 0;
+  font-size: 1rem; 
+  color: #444;
+  line-height: 1.6;
+}
+
+.bloque p strong {
+  color: #0055aa; 
+}
+
+/* --- IMÁGENES (MEMES) --- */
+.meme-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+    gap: 10px; 
+    border-top: 1px solid #eee;
+    background-color: #fcfcfc;
+}
+
+.meme {
+  width: 48%; 
+  max-height: 300px;
+  object-fit: contain;
+  margin: 0; 
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s ease; 
+}
+
+.meme:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.pelea {
+    border-left-color: #cc0000; 
+}
+
+.pelea h3 {
+  color: #cc0000; 
+  background: #ffebeb;
+  border-bottom: 2px solid #cc0000; 
+}
+
+.comentario {
+  display: flex;
+  align-items: flex-start;
+  padding: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.comentario:nth-child(even) { 
+    background: #fafafa;
+}
+
+.comentario img:not(.meme) { 
+  width: 45px; 
+  height: 45px;
+  border-radius: 50%;
+  margin-right: 1rem;
+  object-fit: cover;
+  border: 2px solid #003366;
+}
+
+.comentario p {
+  margin: 0;
+  font-size: 0.95rem;
+  padding: 0; 
+}
+
+.comentario strong {
+  font-weight: bold;
+  font-size: 1rem;
+  display: block; 
+}
+
+
+.comentario.maximiliano img:not(.meme) {
+  border-color: #daa520; 
+}
+
+.comentario.juarez img:not(.meme) {
+  border-color: #008000; 
+}
+
+.comentario.maximiliano strong {
+  color: #0055aa;
+}
+
+.comentario.juarez strong {
+  color: #008000;
+}
+
+.comentario > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.comentario .meme {
+  max-width: 250px;
+  width: auto;
+  margin-top: 0.5rem;
+  border: 2px solid #cc0000; 
+  border-radius: 8px;
+}
+
+footer {
+  text-align: center;
+  background: #002244;
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  font-size: 0.95rem;
+}

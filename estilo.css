@@ -1,0 +1,115 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #2c3e50;
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header h2 {
+  font-weight: normal;
+  margin-top: .5rem;
+}
+
+.perfil {
+  text-align: center;
+  padding: 1rem;
+  background: #ecf0f1;
+}
+
+.foto-perfil {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #2c3e50;
+}
+
+.timeline {
+  max-width: 700px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.post {
+  background: white;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.post h4 {
+  margin-top: 0;
+  color: #2c3e50;
+}
+
+.meme-placeholder {
+  background: #dfe6e9;
+  text-align: center;
+  padding: 2rem;
+  border-radius: 8px;
+  font-style: italic;
+  color: #636e72;
+}
+
+.pelea {
+  background: #ffeaa7;
+  padding: 2rem;
+  border-top: 3px solid #d35400;
+  max-width: 700px;
+  margin: 2rem auto;
+  border-radius: 12px;
+}
+
+.pelea h3 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.comentario {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.comentario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: .8rem;
+}
+
+.comentario p {
+  background: white;
+  padding: .8rem;
+  border-radius: 12px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+}
+
+.maximiliano p {
+  border-left: 5px solid #2980b9;
+}
+
+.juarez p {
+  border-left: 5px solid #27ae60;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #2c3e50;
+  color: white;
+  margin-top: 2rem;
+}
